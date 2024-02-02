@@ -1,0 +1,15 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Publish helm chart
+        uses: parkkingcar/helm-test@main
+        with:
+          token: ${{ secrets.G_TOKEN }}
