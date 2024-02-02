@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Publish helm chart
-        uses: parkkingcar/helm-test@main
+        uses: stefanprodan/helm-gh-pages@master
         with:
-          token: ${{ secrets.G_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
