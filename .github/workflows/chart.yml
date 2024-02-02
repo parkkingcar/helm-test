@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Publish helm chart
+      - name: Publish helm charts
         uses: stefanprodan/helm-gh-pages@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
