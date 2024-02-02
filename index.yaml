@@ -1,0 +1,11 @@
+apiVersion: v1
+entries:
+  myapp:
+  - apiVersion: v2
+    created: "2024-02-02T02:57:50.312412549Z"
+    digest: 1c16574d31d2b9530122a893d1c17daf147f138ee99d480277fce52ec584c113
+    name: myapp
+    urls:
+    - https://parkkingcar.github.io/helm-test/myapp-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-02-02T02:57:50.31152043Z"
